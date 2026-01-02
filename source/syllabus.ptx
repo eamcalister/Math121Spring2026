@@ -8,7 +8,7 @@
   <article xml:id="syllabus">
     <!--Enter appropriate course title-->
     <title> Pre-Calculus Syllabus</title>
-    <subtitle>Math 121 - Fall 2025</subtitle>
+    <subtitle>Math 121 - Spring 2026</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
