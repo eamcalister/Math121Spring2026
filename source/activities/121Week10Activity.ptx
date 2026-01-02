@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week10" >
+            <title>Math 121 Week 10 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Translate between rectangular graphs in the <m>r\theta</m>-plane to polar graphs in the <m>xy</m>-plane.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    See how some cool polar graphs are generated.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+                <p>
+                  For all the graphs in this activity, please graph precisely. If you don't, your graphs will not resemble what they're supposed to look like.
+                </p>
+            </introduction>
+<page>
+  
+</page>
+        
+<page>
+
+<exercise>
+<introduction>
+<!--No Loops-->
+  <p>
+    Consider the polar equation <m>r = 2+\cos(4\theta)</m>. We wish to graph this equation by first graphing this sinusoidal function in the <m>r\theta</m>-plane.
+  </p> 
+</introduction>
+
+<task>
+  <statement>
+
+<p>
+  Graph <m>r</m> as a function of <m>\theta</m> in the axes provided for <m>0\leq\theta \leq 2\pi</m>. Clearly indicate the the maxes, mins, and midline in your graph.
+</p>
+<sidebyside widths="25% 75%" margins="auto">
+<p>
+<ul>
+  <li>
+    <p>
+      Points with maximum <m>r</m>:
+    </p>
+    <p>
+      <fillin characters="20" />
+    </p>
+  </li>
+  <li>
+    <p>
+      Points with minimum <m>r</m>:
+    </p>
+    <p>
+      <fillin characters="20" />
+    </p>
+  </li>
+  <li>
+    <p>
+      Midline: <m>r = </m>    <p>
+      <fillin characters="20" />
+    </p>
+    </p>
+  </li>
+</ul>
+</p>
+
+<image>
+<prefigure label = "rect-axes1" xmlns="https://prefigure.org">
+<diagram dimensions="(500,300)" margins="(75,5,75,5)"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-pi/8,-.5,17*pi/8,4)">
+  <grid-axes xlabel="\theta" ylabel="r"
+    h-pi-format="yes" 
+    spacings="((0,pi/8,17*pi/8),(-5,.5,5))" 
+  />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</sidebyside>
+
+
+  </statement>
+</task>
+
+<task>
+  <statement>
+  <p>
+    Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve corresponding to the midline and show the points with maximum and minimum <m>r</m>-values that you found above.
+  </p>
+        <image>
+    <prefigure label = "polar-axes1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(75,0,75,0)"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-4,-4,4,4)">
+    <grid-axes coordinates="polar" xlabel="x" ylabel="y"
+               clear-background="no" spacing-degrees="yes" spacings="((0,1,9),(0,22.5,360))"
+               hticks="(-4,1,4)" vticks="(-4,1,4)" 
+          />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+
+
+</exercise>
+
+
+
+</page>
+<page>
+
+<exercise>
+<introduction>
+<!--No Loops-->
+  <p>
+    Consider the polar equation <m>r = \cos(3\theta)</m>. To graph this equation, we follow the example of the last problem by first graphing this sinusoidal function in the <m>r\theta</m>-plane.
+  </p> 
+</introduction>
+
+<task>
+  <statement>
+
+<p>
+  Graph <m>r</m> as a function of <m>\theta</m> in the axes provided for <m>0\leq\theta \leq \pi</m>. Clearly indicate the the maxes, mins, and midline in your graph.
+</p>
+<sidebyside widths="25% 75%" margins="auto">
+<p>
+<ul>
+  <li>
+    <p>
+      Points with maximum <m>r</m>:
+    </p>
+    <p>
+      <fillin characters="20" />
+    </p>
+  </li>
+  <li>
+    <p>
+      Points with minimum <m>r</m>:
+    </p>
+    <p>
+      <fillin characters="20" />
+    </p>
+  </li>
+  <li>
+    <p>
+      Midline: <m>r = </m>    <p>
+      <fillin characters="20" />
+    </p>
+    </p>
+  </li>
+</ul>
+</p>
+
+<image>
+<prefigure label = "rect-axes2" xmlns="https://prefigure.org">
+<diagram dimensions="(500,300)" margins="(75,5,75,5)"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-1,-2,3.5,2)">
+  <grid-axes xlabel="\theta" ylabel="r"
+    h-pi-format="yes" 
+    spacings="((-pi/3,pi/6,7*pi/6),(-5,.5,5))" 
+  />
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  
+</sidebyside>
+
+
+
+
+
+  </statement>
+</task>
+
+<task>
+  <statement>
+  <p>
+    Now use the previous part to graph the equation in polar coordinates. Be sure to draw in the polar curve (or point) corresponding to the midline and show the points with maximum and minimum <m>r</m>-values that you found above.
+  </p>
+  <image>
+    <prefigure label = "polar-axes2" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(75,5,75,5)"
+         xmlns="https://prefigure.org">
+  <coordinates bbox="(-1.2,-1.2,1.2,1.2)">
+    <grid-axes coordinates="polar" xlabel="x" ylabel="y"
+               clear-background="no" spacing-degrees="yes" spacings="((0,.5,1.5*2^(0.5)),(0,30,360))"
+               hticks="(-1,1,1)" vticks="(-1,1,1)" 
+          />
+
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+  </statement>
+</task>
+
+
+
+</exercise>
+
+
+</page>
+
+<page>
+  
+<exercise>
+<introduction>
+<p>
+Now consider the family of polar graphs
+<me>
+  r = 1 + a\cos(\theta),
+</me>
+where <m>a</m> is some number greater than zero. These are called <term>cardioids</term>, because they kind of look like hearts when they're graphed.
+</p>  
+</introduction>
+<task workspace="3in">
+  <statement>
+    <p>
+      Sketch graphs of these with <m>r</m> as a function of <m>\theta</m> with <m>a=0.5, 1, 1.5</m>. 
+    </p>
+  </statement>
+</task>
+<task workspace="2in">
+  <statement>
+    <p>
+      Use the graphs you sketched above to explain why the polar graphs have no inner loop if <m>a&lt; 1</m> and have inner loops when <m>a &gt; 1</m>. Also, check that this is true with Desmos of any other technology of your choice.
+    </p>
+  </statement>
+</task>
+
+</exercise>
+
+<exercise workspace="2in">
+<statement>
+  <p>
+    (Hard Question) One of the differences between problems 1 and 2 in this activity is that for the first problem we needed to graph from <m>\theta = 0</m> to <m>\theta = 2\pi</m> to get the entire curve, whereas on the second we only needed to go to <m>\theta = \pi</m> to get the whole polar curve. Why is that?
+  </p>
+</statement>
+</exercise>
+
+</page>
+
+
+
+</worksheet>
+<!--/article>
+</pretext-->

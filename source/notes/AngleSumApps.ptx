@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--pretext-->
+    <!--article xml:id="notes"-->
+        <section xml:id="angle-sum-apps">
+        <title>Applications of the Angle Sum Identities</title>
+        <p>
+            In class yesterday we did an activity to derive the first of the identities in the following:
+            <paragraphs xml:id="angle-sum-identities">
+  <title>The Angle Sum Identities</title>
+    <p>
+      If <m>\theta</m> and <m>\phi</m> are angles, then we have
+      <md>
+        <mrow>\sin(\theta+\phi) \amp = \sin(\theta)\cos(\phi) + \cos(\theta)\sin(\phi) </mrow>
+        <mrow>\sin(\theta-\phi) \amp = \sin(\theta)\cos(\phi) - \cos(\theta)\sin(\phi) </mrow>
+        <mrow>\cos(\theta+\phi)\amp = \cos(\theta)\cos(\phi) - \sin(\theta)\sin(\phi)  </mrow>
+        <mrow>\cos(\theta-\phi)\amp = \cos(\theta)\cos(\phi) + \sin(\theta)\sin(\phi)  </mrow>
+      </md>
+    </p>
+</paragraphs> 
+            
+            
+            
+            Now we will use these identities for some problems that come up in later applied math courses.  
+        </p>
+
+
+
+
+        <subsection xml:id="single-sinusoid">
+            <title>Sums of Sinusoids with the Same Period</title>
+        <p>
+            In the mathematical description of oscillating objects, one frequently encounters functions of the form
+            <me>
+                f(t) = c_1\cos(Bt) + c_2\sin(Bt),
+            </me>
+            where <m>c_1</m> and <m>c_2</m> are constants. This is a periodic function with period <m>P = \frac{2\pi}{B}</m>, but we would like to know its amplitude too. To do so, we can write it in the form
+            <me>
+                f(t) = c_1\cos(Bt) + c_2\sin(Bt) = A\sin(Bt + \phi)
+            </me>
+            for some constants <m>A</m> and <m>\phi</m>. To see how, let's do an example.
+        </p>
+        <example>
+            <statement>
+                <p>
+                    Let <m>f(t) = 3\cos(7t) + 2\sin(7t)</m>. To write in the form <m>f(t) = A\sin(7t + \phi)</m>, we expand the given form using the angle sum identity for sine.
+                    <md>
+                        <mrow> 3\cos(7t) + 2\sin(7t) \amp = A\sin(7t + \phi)</mrow>
+                        <mrow> \amp = A\cos(7t)\sin(\phi) + A\sin(7t)\cos(\phi). </mrow>
+                    </md>
+                    Equating coefficients of <m>\cos(7t)</m> and <m>\sin(7t)</m>, we have
+                    <md>
+                        <mrow> 3 \amp  = A\sin(\phi)</mrow>
+                        <mrow> 2 \amp  = A\cos(\phi)</mrow>
+                    </md>
+                    Thus,
+                    <me>
+                        \tan(\phi) = \frac{A\sin(\phi)}{A\cos(\phi)} = \frac{3}{2}.
+                    </me>
+                    Then we can take <m>\phi = \tan^{-1}(1.5)\approx 0.983</m>. Also,
+                    <me>
+                        A^2 = A^2\sin^2(\phi) + A^2\cos(\phi) = 9 + 4. 
+                    </me>  
+                    So, we <m>A = \sqrt{13}</m>. Hence,
+                    <me>
+                       f(t) = 3\cos(7t) + 2\sin(7t) = \sqrt{13}\sin(7t + \tan^{-1}(1.5)). 
+                    </me>
+                </p>
+            </statement>
+        </example>
+
+
+        <paragraphs xml:id="phase-shift">
+            <title>Writing as a Single Sine</title>
+            <p>
+                To write, 
+                <me>
+                    f(t) = c_1\cos(Bt) + c_2\sin(Bt)
+                </me>
+                in the form
+                <me>
+                    f(t) = A\sin(Bt + \phi)
+                </me>
+                proceed as follows:
+                <ol>
+                    <li>
+                        <p>
+                            Expand <m>A\sin(Bt + \phi)</m> using the angle sum identity for sine.
+                    <md>
+                        <mrow> c_1\cos(Bt) + c_2\sin(Bt) \amp = A\sin(Bt + \phi)</mrow>
+                        <mrow> \amp = A\cos(Bt)\sin(\phi) + A\sin(Bt)\cos(\phi). </mrow>
+                    </md>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Match coefficients to get
+                    <md>
+                        <mrow> c_1 \amp  = A\sin(\phi)</mrow>
+                        <mrow> c_2 \amp  = A\cos(\phi)</mrow>
+                    </md>
+
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Notice that <m>A^2 = c_1^2 + c_2^2</m>, so <m>A = \sqrt{c_1^2 + c_2^2}</m>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Notice that <m>\tan(\phi) = \frac{c_1}{c_2}</m>. Based on the signs of <m>c_1</m> and <m>c_2</m>, decide which quadrant <m>\phi</m> can be in, and use <m>\phi = \tan^{-1}(c_1/c_2)</m> or <m>\phi = \tan^{-1}(c_1/c_2) + \pi</m>.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </paragraphs>
+        
+        
+        
+        </subsection>
+
+        <subsection xml:id="sum-to-product">
+          <title>Sum to Product Identities and Applications</title>
+        <p>
+            Some identities related to the angle sum identities are the following:
+                        <paragraphs xml:id="sum-to-prod-identities">
+  <title>Sum to Product Identities</title>
+    <p>
+      If <m>\theta</m> and <m>\phi</m> are angles, then we have
+      <md>
+        <mrow>\sin(a) + \sin(b) \amp = 2\sin\left(\frac{a+b}{2}\right)\cos\left(\frac{a-b}{2}\right) </mrow>
+        <mrow>\sin(a) - \sin(b) \amp = 2\cos\left(\frac{a+b}{2}\right)\sin\left(\frac{a-b}{2}\right) </mrow>
+        <mrow>\cos(a) + \cos(b) \amp = 2\cos\left(\frac{a+b}{2}\right)\cos\left(\frac{a-b}{2}\right) </mrow>
+        <mrow>\cos(a) - \cos(b) \amp = -2\sin\left(\frac{a+b}{2}\right)\sin\left(\frac{a-b}{2}\right) </mrow>
+      </md>
+    </p>
+</paragraphs> 
+        </p>
+        <p>
+            One use of these is to solve equations like in the following example.
+        </p>
+<example>
+    <statement>
+        <p>
+            Suppose we want to solve
+            <me>
+                \cos(4x) + \cos(x) = 0,\ \ 0\leq x \leq \pi.
+            </me>
+            We apply the third identity given above to re-write the equation as
+            <me>
+                2\cos\left(\frac{5x}{2}\right)\cos\left(\frac{3x}{2}\right) = 0. 
+            </me>
+            This is a factored form, so we can set <m>\cos\left(\frac{5x}{2}\right)</m> and <m>\cos\left(\frac{3x}{2}\right)</m> equal to zero separately on the given domain to obtain
+            <me>
+                x = \frac{\pi}{5},\ \frac{3\pi}{5},\ \pi,\ \frac{\pi}{3}.
+            </me>
+            
+        </p>
+    </statement>
+</example>
+
+<example>
+<statement>
+    <p>
+        One really neat application of a sum-to product formula comes when you write a sum of two sinuoidal functions with very close periods as a product. For instance,
+        <me>
+            \sin(2t) + \sin(2.1t) = 2\sin(2.05t)\cos(0.05t).
+        </me>
+        The factor <m>\sin(2.05t)</m> has a very short period while <m>\cos(0.05t)</m> has a very long period. The result is a graph that looks like the following:
+            <image>
+    <prefigure label = "beats-graph" xmlns="https://prefigure.org">
+<diagram dimensions="(1000,1000)" margins="5">
+  <definition>f(x)=sin(2*x)+sin(2.1*x)</definition>
+  <coordinates bbox="(-100,-4,100,4)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph N="500" at="graph" function="f"/>
+  </coordinates>
+
+</diagram>
+</prefigure>
+</image>
+    </p>
+<p>
+    What's really neat is that this allows you to <em>hear</em> this identity at work. This is what causes the wavering sound at the end of this video.
+</p>
+    <figure>
+  <title>MIT Beats and Resonance</title>
+  <video xml:id="mit-beats" youtube="pRpN9uLiouI"/>
+</figure>
+
+
+</statement>
+
+
+</example>
+        
+            
+        </subsection>
+
+
+        </section>
+    <!--/article-->
+<!--/pretext-->

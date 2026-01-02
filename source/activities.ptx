@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+  <article xml:id="class-activities" >
+    <title>In-Class Activities</title>
+    <xi:include href="./frontmatter.ptx" />
+
+    <introduction>
+      <p>
+        These activities are designed to be used in class to help students understand the material. They are not graded, but students are encouraged to work on them in groups and ask the instructor for help when needed.
+      </p>
+    </introduction>
+    <xi:include href="./activities/121Week1Activity.ptx"/>
+    <xi:include href="./activities/121Week2Activity.ptx"/>
+    <xi:include href="./activities/121Week3Activity.ptx"/>
+    <xi:include href="./activities/121Week5Activity.ptx"/>
+    <xi:include href="./activities/121Week6Activity.ptx"/>
+    <xi:include href="./activities/121Week7Activity.ptx"/>
+    <xi:include href="./activities/121Week9Activity.ptx"/>
+    <xi:include href="./activities/121Week10Activity.ptx"/>
+    <xi:include href="./activities/121Week11Activity.ptx"/> 
+  <xi:include href="./activities/121Week13ActivityInteractive.ptx"/> 
+    <!-- Add more xi:include files here to include them in the main course -->
+  </article>
+</pretext>

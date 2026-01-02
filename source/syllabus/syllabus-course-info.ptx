@@ -1,0 +1,116 @@
+  <section xml:id="course-info">
+    <!--Fill with appropriate course information-->
+    <title>Course Information</title>
+    <p> 
+      <dl>
+        <li><title>Course Title</title>
+          <p>
+            Precalculus
+          </p>
+        </li>
+        <li><title>Course Number</title>
+          <p>
+            MATH 121
+          </p>
+        </li>
+        <li><title>Credits</title>
+          <p>
+            4
+          </p>
+        </li>
+        <li><title>Times and Rooms</title>
+        <!--e.g.-->
+        <ul>
+        <li>  
+          <em>Section 1 Time and Room(s):</em> 8:00-8:55am, MWF Noble 110, Th Noble 160
+        </li>
+        <li>
+            <em>Section 2 Time and Room(s):</em> 10:10-11:05am, MWF Noble 110, Th Berndt 340
+        </li>
+        <li>
+            <em>Section 3 Time and Room(s):</em> 11:15am-12:10pm, MWF Noble 110, Th Berndt 340
+        </li>
+        <li>
+            <em>Section 4 Time and Room(s):</em> 2:30-3:25pm, MWF Noble 110, Th Berndt 340
+        </li>
+      </ul>
+    </li>
+        <li><title>Instructors</title>
+          <ul>
+            <li>
+              <p>
+                <em>Sections 2 and 4 - </em> Levi Lorenzo, EBH 292, (<url href="mailto:llorenzo@fortlewis.edu">llorenzo@fortlewis.edu</url>)
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>Section 1 and 3 - </em> Erich McAlister, EBH 262, (<url href="mailto:mcalister_e@fortlewis.edu">mcalister_e@fortlewis.edu</url>)
+              </p>
+            </li>
+          </ul>        
+        </li>
+      </dl>
+    </p>
+
+  <paragraphs xml:id="description">
+    <title>Course Description</title>
+    <p>
+      This course covers topics in algebra and trigonometry necessary for students who plan to enroll in MATH 221. Topics include functions, compositions and inverses, and domain and range. Polynomial, rational, exponential, logarithmic, and trigonometric functions are examined in depth with an emphasis on symbolic methods, parameters that describe each family of functions, and multiple representations of functions.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="instructional-format">
+    <title>Instructional Format</title>
+    <p>This is a face-to-face course, which means we will meet in person.</p>
+  </paragraphs>
+
+  <paragraphs xml:id="course-materials">
+    <title>Course Materials</title>
+    <p>
+      Required Text: <em>Functions Modeling Change: A Preparation for Calculus - 6th Edition</em> by Connally et al (ISBN 978-1119498315)
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="office-hours">
+    <title>Student Office Hours</title>
+    <p>
+    <ul>
+      <li>
+        <p>
+          <em>Levi Lorenzo's Office Hours:</em> MTh 12:15-2:15pm in EBH 292, W 1:15-2:15PM in the Peer Education Center (PEC, located in the library).
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Erich McAlister's Office Hours:</em> MWF 1:30-2:30pm in the Peer Education Center (PEC, located in the library), or by appointment.
+        </p>
+      </li>
+    </ul>
+  </p>
+  </paragraphs>
+
+  <paragraphs xml:id="feedback">
+    <title>Feedback and Communication</title>
+    <p>
+      Communication of all course information will occur via Canvas as well as in class. Most assignments will be submitted and graded online in Canvas or Webwork.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="missing-class">
+    <!--Course policies are made by instructional teams; these are examples.-->
+    <title>Missing Class</title>
+    <p>
+      If you need to miss class, that is ok. If you miss class, be sure to check Canvas and Webwork for assignments, and try to get notes from a classmate. If you're still having difficulty with the material, use office hours or the Peer Education Center to get caught up. If you need an extension on an assignment, just ask your professor and it will likely be granted.
+    </p>
+    <p>
+      If you need to miss class for an extended period of time, let your professor know so that we may work out a remote accommodation.
+    </p>
+  </paragraphs>
+
+  <paragraphs xml:id="tech">
+    <title>Technology and Software Requirements</title>
+    <p>
+      You will need to be able to access Canvas and Webwork (online homework system) as submit assignments online. Internet access and a scanning device are required. Calculators will not be used on exams, but will frequently be useful for homework and in class.
+    </p>
+  </paragraphs>
+</section>

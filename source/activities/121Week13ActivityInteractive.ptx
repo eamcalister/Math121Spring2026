@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext-->
+<!--article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week13" >
+            <title>Math 121 Week 13 Activity</title>
+<introduction>
+    <p>
+        This activity has the following objectives:
+    </p>
+</introduction>
+        <objectives>
+        <ul>
+	  		<li>
+	  			<p>
+					Learn what a limit is
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Find limits from graphs and equations
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+                <p>
+                In this project (and often in calculus), we will work with limits. 
+                </p>
+            </introduction>
+            <page>
+              <exercise>
+                <introduction>
+ <p>
+We have seen limits in the context of long-run behavior. We saw that <m> \displaystyle \lim_{x \to \infty} f(x)</m> was the value <m>f(x) </m> approached as <m> x </m> got very large. More formally, this means that <m> \displaystyle \lim_{x \to \infty} f(x) = L </m> if, for any small positive number, <m> \varepsilon,</m> we can find a large number <m> N </m> so that for all <m> x \geq N , f(x)</m> never gets more than <m> \varepsilon </m> away from <m> L .</m>
+ </p>
+ </introduction>
+ <task workspace="1in">
+  <statement>
+    <p>
+      Let's demonstrate this with the function <m> f(x) </m> whose graph is given in the Geogebra interactive below. What does it look like <m> \displaystyle L = \lim_{x \to \infty} f(x) </m> is?
+    </p>
+
+      <!--interactive  xml:id="desmos-rational-limit" desmos="ublproheyo" width="70%" aspect="3:5" /-->
+      <interactive geogebra="qs5pjrv8" shift-drag-zoom="yes"  reset-icon="yes" aspect="5:3"/>
+  </statement>
+ </task>
+ <task workspace="1in">
+  <statement>
+    <p>
+      For <m> \varepsilon = 1</m> find a value of <m> N </m> so that <m> f(x) </m> is within <m> \varepsilon </m> of <m> L </m> for all <m> x \geq N. </m>
+    </p>
+  </statement>
+ </task>
+ <task workspace="1in">
+  <statement>
+    <p>
+      Now let <m> \varepsilon = 0.1</m> and find a value of <m> N </m> as above.
+    </p>
+  </statement>
+ </task>
+              </exercise>
+            </page>    
+<page>
+            <exercise>
+  <introduction>
+    <p>
+      Similarly, we can take limits as <m> x </m> approaches a finite value, <m> a.</m> In this case, instead of taking larger values of <m> x </m> to get close to <m> L ,</m> we take values <em> closer </em> to <m> a .</m> Specifically,
+    </p>
+      <paragraphs>
+        <title>Definition of <m>\lim\limits_{x\to a} f(x)</m></title>
+          <p>
+            If we are given a function <m>f</m> and a number <m> a, </m> we say that <m>\displaystyle \lim_{x \to a} f(x) = L </m> if we can make <m>f(x) </m> as close to <m>L</m> as we would like by taking values of <m> x</m> sufficiently close to, but not equal to, <m> a, </m> i.e. <m> L </m> is the value <m> f(x) </m> approaches as <m> x </m> approaches (but does not equal) <m> a .</m> 
+          </p>
+        </paragraphs>
+          </introduction>
+  <task workspace = "2in">
+    <statement>
+      <p>
+         Using the Geogebra graph from the previous problem, find <m> f(4.8), f(4.9), f(5.2), f(5.1) </m> and use these to estimate <m> \displaystyle \lim_{x \to 5} f(x).</m>
+      </p>
+    </statement>
+  </task>
+ <task workspace = "2in">
+    <statement>
+      <p>
+        Next, find <m> f(1.8), f(1.9), f(2.2), f(2.1) </m> and use these to estimate <m> \displaystyle \lim_{x \to 2} f(x).</m>
+      </p>
+    </statement>
+  </task>
+  <task workspace = "2in">
+    <statement>
+      <p>
+       Now, find <m> f(2).</m> Does this change your answer to the previous part? Why or why not?
+      </p>
+    </statement>
+  </task>
+</exercise>
+</page>
+<page>
+<exercise>
+<introduction>
+<p>
+Now, consider the function <m> g(x) = \frac{(x-3)(x^2-4)}{x^2-x-6}.</m>
+</p>
+</introduction>
+<task>
+<p> 
+  Draw the graph of <m> g.</m> Label the <m> x</m> and <m> y </m> intercepts as well as any holes. Use Desmos to check your answer.
+</p>
+<image>
+<prefigure label = "limits-2" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="100,5,100,5">
+  <coordinates bbox="(-5,-5,5,5)">
+    <grid-axes xlabel="x" ylabel="y"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</task>
+<task workspace = "1in">
+<p>
+ What are <m> \displaystyle \lim_{x \to \infty} g(x) </m> and <m> \displaystyle \lim_{x \to - \infty} g(x)? </m>
+</p>
+</task>
+<task workspace = "1in">
+<p>
+ What values of <m> a </m> satisfy <m> \displaystyle \lim_{x \to a} g(x) = 0? </m>
+</p>
+</task>
+<task workspace = "1in">
+<p>
+ Using your graph, estimate <m> \displaystyle \lim_{x \to a} g(x) </m> for <m> a =1 </m> and <m> a = 3</m>
+</p>
+</task>
+<task workspace = "1in">
+<p>
+ Check your answers to the previous part by evaluating <m> g </m> at <m> x </m> -values near <m> a=1</m> and <m> a =3.</m> Write down these values
+</p>
+</task>
+</exercise> 
+
+
+</page>
+
+
+
+</worksheet>
+<!--/article-->
+<!--/pretext-->

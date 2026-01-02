@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+    <!--pretext>
+        <article-->
+<worksheet margin="1in" bottom="1.25cm" xml:id="Week6" >
+    <title>Math 121 Week 6 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Recall the idea of inverse functions and where they are defined.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                   Restrict the domains of trigonometric functions to define their inverses.
+                </p>
+            </li>
+
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                  Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
+                </p>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+                  <p>
+                Recall the notion of an <term> inverse function </term> , <m>f^{-1}, </m> to a function <m> f </m>:    
+            </p>
+            <p>
+                The function <m>f^{-1} </m> is defined, for <m> y </m> in the range of <m> f,</m> by <m> f^{-1}(y) = x </m> if <m>f(x) =y .</m> 
+            </p>
+            <p> 
+                We can find a formula for <m> f^{-1} </m> from a formula for <m> f </m> by solving for <m> x </m> in terms of <m> y.</m>
+        </p>
+        <p> <em> Note: </em> However, this only works for those <m> y</m> for which there is exactly one value of <m> x </m> in the domain of <m> f</m> such that <m> f(x) = y. </m> 
+        </p>
+        <p>
+            If <m> f </m> attains certain <m> y </m> values for more than one <m> x, </m> we can <em> restrict the domain</em> of <m> f </m> so that <m> f </m> attains each value in its range exactly once on this new domain and define <m> f^{-1} </m> to be the inverse of <m> f </m> on this new domain, i.e. for <m> x </m> in the new domain, <m> f^{-1}(y) = x </m> if and only if <m> f(x) = y. </m>
+    </p>
+            </introduction>           
+<page>       
+<exercise workspace = "4in">
+    <introduction>
+        <p>
+            First, let's practice this with 
+        <m> f(x) =x^2 .</m> 
+        </p>
+    </introduction>
+<task workspace = "3in">
+    <p>
+What is the range of <m> f </m>? For each <m> y </m> in the range of <m> f ,</m> how many <m> x </m> values satisfy <m> y = f(x) = x^2 </m>?
+    </p>
+</task>
+
+<task workspace = "3in">
+    <p>
+Thus, <m> f(x) = x^2 </m> does not have an inverse on the entirety of its domain. Instead we need to restrict its domain to define the inverse. What do we need to restrict the domain of <m>f </m> to for <m> x = \sqrt{y} </m> to be the inverse of <m> f(x) = x^2 </m> on this domain? 
+    </p>
+</task>
+</exercise>
+</page>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+              Below is the graph of <m> y= \sin(\theta) .</m> We want to find an inverse function <m> \theta = \sin^{-1}(y).</m>
+            </p>
+  <!--figure xml:id="sin_graph"-->
+<image>
+    <prefigure label = "trig" xmlns="https://prefigure.org">
+            <diagram dimensions="(200,200)" margins="100,5,100,5">
+                
+  <definition>f(x)= sin(x)
+</definition>
+  <coordinates bbox="(-2*pi ,-1.5,2*pi,1.5)">
+    <grid-axes  xlabel="\theta" ylabel="y" h-pi-format="yes" stroke="black"/>
+    <graph at="graph" function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+<!--/figure-->
+        </introduction>
+    <task workspace ="3in">
+        <statement>
+        <p> 
+ We need to define <m> \sin^{-1}(\frac{1}{2}) .</m> What value(s) of <m> \theta </m> satisfy <m> \sin(\theta) = \frac{1}{2}</m>? Label these on the graph.
+        </p>
+    </statement>
+    </task> 
+    
+    <task workspace ="3in">
+        <statement>
+        <p>
+          For <m> \sin^{-1} </m> to be a <em> function </em>, we need to pick one value of <m> \theta </m> so that <m> \sin^{-1}(y) = \theta</m>. Pick one and justify your choice.
+        </p>
+    </statement>
+    </task>
+    
+    <task workspace="3in">    
+        <statement>
+                <p>
+             Now, pick an interval, <m> a \leq \theta \leq b,</m> in the domain of <m> \sin </m> such that, on <m> a \leq \theta \leq b, \sin </m> attains every value in its range exactly once. This  will allow us to define <m> \theta = \sin^{-1}(y) </m> to be the inverse of <m> y =\sin(\theta) </m> on <m> a \leq \theta \leq b </m>. 
+                </p>
+            </statement>
+    </task>
+    
+    <task workspace = "3in">
+        <statement>
+        <p>
+        If <m> \sin^{-1} </m> is the inverse of <m> \sin(\theta) </m> on this interval, what is the range of <m> \theta =\sin^{-1}(y) </m>? What is the domain?
+    </p>
+</statement>
+    </task>
+</exercise> 
+</page>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+       Next, we define <m>\theta= \tan^{-1}(y). </m>       
+            </p>
+        </introduction>
+    <task workspace ="4in">
+        <statement>
+        <p> 
+Is there an interval centered at 0, <m> -a &lt; \theta &lt; a  </m> for some <m> a &gt; 0,</m> such that <m> \tan </m> attains every value in its range on <m> -a &lt; \theta  &lt; a</m>? What is <m> a </m>?
+        </p>
+    </statement>
+    </task> 
+    
+    <task workspace ="3in">
+        <statement>
+        <p>
+          Using the above, what are the domain and range of <m> \theta =\tan^{-1}(y) </m>?
+        </p>
+    </statement>
+    </task>
+</exercise> 
+</page>
+<page>
+<exercise> 
+    <introduction>
+            <p>
+            Finally, we will define <m> \theta = \cos^{-1}(y) </m>.
+            </p>
+        </introduction>
+    <task workspace ="4in">
+        <statement>
+        <p> 
+Find an interval on which <m> \cos </m> attains every value in its range exactly once. We will define <m> \cos^{-1}(y) </m> to be the inverse of <m> y= \cos(\theta) </m> on this interval.
+        </p>
+    </statement>
+    </task> 
+    <task workspace ="2in">
+        <statement>
+        <p>
+         What are the domain and range of <m>\theta= \cos^{-1}(y) </m>?
+        </p>
+    </statement>
+    </task>
+</exercise> 
+</page>
+</worksheet>
+<!--page>
+<exercise>
+   <introduction>
+    <p>
+        Suppose you ski down a slope at a fixed angle and you drop 2000 feet as you travel 4000 feet.
+    </p>
+   </introduction> 
+<task workspace = "2in">
+<p>
+    What is the angle of the slope from horizontal?
+</p>
+</task>
+<task workspace = "2in">
+<p> 
+How steep is the line from where you finished to where you start?
+</p>  
+</task>
+<task workspace = "4in">
+<p>
+If you travel at 20 feet per second, how quickly are you losing elevation? 
+</p>   
+</task>
+<task workspace = "3in">
+    <p>
+    If someone viewed you from above and could not see your elevation changes, how quickly would it appear that you were moving? (i.e. how quickly are you moving in the horizontal direction?)
+    </p>
+</task>
+</exercise>
+</page-->
+
+<!--exercise workspace="6in">
+    <introduction>
+        <p>
+         Now, suppose a carousel has two rings of horses. The inner ring is <m> 2 </m> meters from the center and the outer ring is <m> 4 </m> meters from the center and each ring of horses moves up and down synchronously.   
+        </p>
+    </introduction>
+    <task workspace="3in">
+        <statement>
+            <p>
+                What angle (in radians) must an inner ring horse traverse to travel <m> 8</m> meters (in the horizontal plane)? How far does an outer ring horse travel across this same angle?
+            </p>
+            <p>
+                 Suppose the height (in meters) of an outer ring horse (as it bobs up and down) is given by <m>O(\theta) = 1-\cos(\theta)</m> where <m>\theta</m> is the angle the carousel has rotated from the starting position. Sketch a graph of <m> O(\theta).</m>
+            </p>
+            <p> Now, if the height function for an inner ring horse has the same amplitude, midline, and period as the height function for the outer ring horse, but an inner ring horse is at the bottom when an outer ring horse is at the top (and vice versa), write an equation <m>I(\theta),</m> for a graph of the height of an inner ring horse and sketch a graph of <m>I(\theta).</m> </p>
+        <p>
+             If the carousel stops halfway around its rotation, what height are the inner ring horses at and what height are the outer ones at? What if the carousel stops <m> 3/8 </m> of the way around? <m> 2/3 </m> of the way around?
+        </p>
+        </statement>
+    </task>
+</exercise-->
+
+
+<!--/article>
+</pretext-->

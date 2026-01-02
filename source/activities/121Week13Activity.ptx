@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week13" >
+            <title>Math 121 Week 13 Activity</title>
+<introduction>
+    <p>
+        This activity has the following objectives:
+    </p>
+</introduction>
+        <objectives>
+        <ul>
+	  		<li>
+	  			<p>
+					Learn what a limit is
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Find limits from graphs and equations
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+                <p>
+                In this project (and often in calculus), we will work with limits. 
+                </p>
+            </introduction>
+            <page>
+              <exercise>
+                <introduction>
+ <p>
+We have seen limits in the context of long-run behavior. We saw that <m> \lim_{x \to \infty} f(x)</m> was the value <m> </m> approached as <m> x </m> got very large. More formally, this means that <m> \lim_{x \to infty} f(x) = L </m> if for any small positive number, <m> \varepsilon,</m> we can find a large number <m> N </m> so that for all <m> \geq N , f(x)</m> never gets more than <m> varepsilon </m> away from <m> L .</m>
+ </p>
+ </introduction>
+ <task workspace="2in">
+  <statement>
+    <p>
+      Let's demonstrate this with the function <m> f(x) = \frac{2x}{x+1}. </m> What is <m> \lim_{x \to infty} f(x)? </m>
+    </p>
+  </statement>
+ </task>
+ <task workspace="3in">
+  <statement>
+    <p>
+      For <m> \varepsilon = 1</m> find a value of <m> N </m> so that <m> f(x) </m> is within <m> \varepsilon </m> of <m> L </m> for all <m> x \geq N. </m>
+    </p>
+  </statement>
+ </task>
+ <task workspace="3in">
+  <statement>
+    <p>
+      Now let <m> \varepsilon = 0.5</m> and find a value of <m> N </m> as above.
+    </p>
+  </statement>
+ </task>
+              </exercise>
+            </page>
+      
+<page>
+            <exercise>
+  <introduction>
+    <p>
+      Similarly, we can take limits as <m> x </m> approaches a finite value, <m> a.</m> In this case, instead of taking larger values of <m> x </m> to get close to <m> L ,</m> we take values <em> closer </em> to <m> a .</m> Specifically,
+    </p>
+      <p>
+           <em>Definition: </em> If we are given a function <m>f</m> and a number <m> a </m> (which could be <m> \pm \infty </m>), we say that <m>\displaystyle \lim_{x \to a} f(x) = L </m> if we can make <m>f(x) </m> as close to <m>L</m> as we would like by taking values of <m> x</m> sufficiently close to, but not equal to, <m> a </m> (Note that <m> L</m> can also be <m> \pm \infty .</m>) In other words, <m> \lim_{x \to a} f(x) = L </m> means that as <m> L </m> is the <m> y-</m>value <m> f </m> approaches as <m> x </m> approaches <m> a, </m> irrespective of the value of <m> f </m> at <m> a.</m>
+                </p>
+    <p>
+      One way to determine <m> \displaystyle \lim_{x \to a} f(x) </m> is to plug in values really close (but not equal) to <m> a </m> and determining if the values approach a common value.
+    </p>
+    <p>
+      For each of the following, use your calculator to find <m>f(3.9),f(3.99),f(3.999),f(4.1),f(4.01), </m> and <m>f(4.001)</m> to estimate <m> \displaystyle \lim_{x \to 4}f(x).</m>
+    </p>
+  </introduction>
+  <task workspace = "2in">
+    <statement>
+      <p>
+        <m>f(x) = \sqrt{x} </m>
+      </p>
+    </statement>
+  </task>
+  <task workspace = "2in">
+    <statement>
+      <p>
+        <m>f(x) = \ln(x) </m>
+      </p>
+    </statement>
+  </task>
+</exercise>
+</page>
+<page>
+<exercise>
+<introduction>
+  <p>
+    Another way to determine limits is graphically. Let <m> f(x) = \frac{(x+2)(x-2))}{x-2}.</m> 
+  </p> 
+ 
+</introduction>
+<task>
+  <p>
+    Sketch the graph of <m>f</m> below: 
+    </p>
+   <image>
+<prefigure label = "limits-1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="100,5,100,5">
+  <coordinates bbox="(-5,-5,5,5)">
+    <grid-axes xlabel="x" ylabel="y"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+</task>
+<task workspace="3in">
+    <statement>
+        <p>
+            Find <m> \displaystyle \lim_{x \to a} f(x),</m>  for <m> a= 0, 4 </m>
+        </p>
+    </statement>
+</task>
+<task workspace="2in">
+    <statement>
+        <p>
+            What happens at <m> a= 2</m>? The function is undefined, but is there a value of <m> L </m> that satisfies <m>\displaystyle \lim_{x \to a} f(x) = L </m>?
+        </p>
+    </statement>
+</task>
+</exercise>
+</page>
+<page>
+<exercise>
+<introduction>
+<p>
+Consider the function <m> g(x) = \frac{(x-3)(x^2-4)}{x^2-x-6}.</m>
+</p>
+</introduction>
+<task>
+<p> 
+  Draw the graph of <m> g.</m> Label the <m> x</m> and <m> y </m> intercepts as well as any holes.
+</p>
+<image>
+<prefigure label = "limits-1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="100,5,100,5">
+  <coordinates bbox="(-5,-5,5,5)">
+    <grid-axes xlabel="x" ylabel="y"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</task>
+<task workspace = "3in">
+<p>
+  Now, for <m> a = -2,0,3 </m> compute <m> \displaystyle \lim_{x \to a} g(x) .</m>
+</p>
+</task>
+</exercise> 
+
+
+</page>
+
+
+
+</worksheet>
+<!--/article>
+</pretext-->

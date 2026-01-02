@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+    <!--pretext>
+        <article-->
+<worksheet margin="1in" bottom="1.25cm" xml:id="Week5" >
+    <title>Math 121 Week 5 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Find values of the sine and cosine functions. 
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Translate between radians and degrees
+                </p>
+            </li>
+            <li>
+                <p>
+                    Apply transformations to change the amplitude and midline of sinusoidal functions.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+    
+            <introduction>
+                <p>
+                  Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
+                </p>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>    
+   
+
+<page>
+
+<exercise >
+         <introduction>
+                    <p>
+                         Recall the following relationship between radians and degrees:
+                         <me>
+                            1 \text{radian} = \frac{180}{\pi} \text{degrees}.
+                         </me>
+                        
+                    </p>
+</introduction>
+
+    <task>
+<statement>
+<sidebyside>
+<p>
+ <image>
+
+<prefigure label = "circle" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(10,0,10,0)">
+
+  <definition>f(x,y)=x^2+y^2</definition>
+
+  <coordinates bbox="(-1.5,-1.5,1.5,1.5)">
+
+    <grid-axes xlabel="x" ylabel="y" stroke="black"/>
+
+    <implicit-curve function="f" k="1" stroke="blue" />
+
+  </coordinates>
+
+</diagram>
+</prefigure>
+</image>     
+
+
+</p>
+    
+
+
+<paragraphs> 
+<p>    
+Draw the points on the unit circle at <m> \theta = \pi/6, \pi/3, \pi/4, </m> and any other points whose reference angles equal <m> \pi/3, \pi/4, </m> or <m> \pi/6. </m> 
+</p>
+<p>
+<em>Note:</em> There should be 12 total points.
+</p>
+</paragraphs>
+</sidebyside>
+</statement>
+</task> 
+    
+    <task workspace ="3.5in">
+    <statement>
+        <p>
+            Now, for each of these labeled points, write a corresponding angle measured counter-clockwise from the positive <m> x</m>-axis and the sine and cosine of this angle. (Making a table might be a good idea.)
+        </p>
+    </statement>
+    </task>
+</exercise>
+</page>
+<page>
+<exercise>
+   <introduction>
+    <p>
+        Suppose a mill is powered by a waterwheel on a river with a horizontal axle. The wheel has radius <m> 10 </m> feet and the water rises <m> 5 </m> feet above the bottom the wheel. 
+    </p>
+   </introduction> 
+<task workspace = "3in">
+<statement>
+<p>
+   Write an equation for the function <m> H</m> which gives the height on the edge of the wheel above the water, in feet, as a function of the angle <m> \theta </m> measured counterclockwise from 3 o'clock on the wheel. Sketch a graph of this function. 
+</p>
+</statement>
+</task>
+<task workspace = "4in">
+
+<statement>
+<p>
+Now suppose the wheel takes <m> 30</m> seconds to perform one full rotation. If you hang onto the edge of the wheel and ride one full rotation, how much time would you spend at least <m> 5+10\frac{\sqrt{2}}{2} </m> feet above the water?
+</p>
+</statement> 
+</task>
+</exercise>
+</page>
+<page>
+
+<exercise>   
+<introduction>
+    <p>
+        In this problem, we have the same waterwheel as in the last problem. Now we'll think about arc length and angles.
+    </p>
+</introduction>
+
+<task workspace = "4in">
+<statement>
+<p> 
+What is the arc length (measured on the edge of the wheel) that is underwater?
+</p>  
+</statement>
+</task>
+<task workspace = "4in">
+<statement>
+    <p>
+        If the water is flowing at the same speed as the wheel (i.e. the water moves 1 foot in the same time it takes for the outside of the wheel to rotate <m> 1 </m> foot), how fast is the river moving (in feet per second).
+    </p>
+</statement>
+</task>
+</exercise>
+
+</page>
+
+<!--exercise workspace="6in">
+    <introduction>
+        <p>
+         Now, suppose a carousel has two rings of horses. The inner ring is <m> 2 </m> meters from the center and the outer ring is <m> 4 </m> meters from the center and each ring of horses moves up and down synchronously.   
+        </p>
+    </introduction>
+    <task workspace="3in">
+        <statement>
+            <p>
+                What angle (in radians) must an inner ring horse traverse to travel <m> 8</m> meters (in the horizontal plane)? How far does an outer ring horse travel across this same angle?
+            </p>
+            <p>
+                 Suppose the height (in meters) of an outer ring horse (as it bobs up and down) is given by <m>O(\theta) = 1-\cos(\theta)</m> where <m>\theta</m> is the angle the carousel has rotated from the starting position. Sketch a graph of <m> O(\theta).</m>
+            </p>
+            <p> Now, if the height function for an inner ring horse has the same amplitude, midline, and period as the height function for the outer ring horse, but an inner ring horse is at the bottom when an outer ring horse is at the top (and vice versa), write an equation <m>I(\theta),</m> for a graph of the height of an inner ring horse and sketch a graph of <m>I(\theta).</m> </p>
+        <p>
+             If the carousel stops halfway around its rotation, what height are the inner ring horses at and what height are the outer ones at? What if the carousel stops <m> 3/8 </m> of the way around? <m> 2/3 </m> of the way around?
+        </p>
+        </statement>
+    </task>
+</exercise-->
+
+</worksheet>
+<!--/article>
+</pretext-->

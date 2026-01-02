@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week1">
+            <title>Math 121 Week 1 Activity</title>
+
+        <objectives>
+		<p>
+            In this activity we will do the following:
+        </p>
+        <ul>
+	  		<li>
+	  			<p>
+					Review the basic forms of linear, quadratic, and exponential functions.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Identify functions of each of the above types from their graphs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Find formulas for functions in the families given above from points on their graphs.
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    This activity is intended to help you review some of the algebraic functions you saw in previous math courses. Please feel free to work together. If you get stuck, just ask and we'll get unstuck.
+                </p>
+            </introduction>
+        <page>
+            <exercise>
+                <introduction>
+                    <p>
+                        Fill in the blanks defining each of the following types of functions. If there are multiple forms you remember, try to write all of them down.
+                    </p>
+                </introduction>
+                <task workspace="1.5in">
+                    <statement>
+                        <p>
+                             A <term>linear</term> function is one of the form <fillin characters="35" />.
+                        </p>
+                    </statement>
+                </task>   
+                <task workspace="1.5in">
+                    <statement>
+                        <p>
+                            A <term>quadratic</term> function is one of the form <fillin characters="35" />.
+                        </p>
+                    </statement>
+                </task> 
+                <task workspace="1.5in">
+                    <statement>
+                        <p>
+                            An <term>exponential</term> function is one of the form <fillin characters="35" />.
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+        </page>
+
+        <page>
+<exercise>
+    <statement>
+             <p>
+                Match each graph shown below with one or more of the given formulas.
+            </p>            
+                        <ol>
+                            <li>
+                                <p>
+                                    <m>y = 3x-2</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>f(x) = 3(x-1)+1</m> 
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>g(x) = -3x^2 - 6x + 3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>h(x) = -3x^2+6x+3</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y = -3(x-1)^2+6</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>P(x) = 3(\sqrt{5})^{-x}</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>y = 3(\sqrt{5})^x</m>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <m>P(x) = 3\cdot 5^{-x/2}</m>
+                                </p>
+                            </li>
+                        </ol>
+
+<sidebyside widths="30% 30% 30%" margins="auto" valign="middle">                
+<image>
+<prefigure label = "fn1" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=3*x-2</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+<image>
+<prefigure label = "fn2" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=3*x+1</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+<image>
+<prefigure label = "fn3" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=-3*x^2+6*x+3</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+</sidebyside>
+
+<sidebyside widths="30% 30% 30%" margins="auto" valign="middle">                
+<image>
+<prefigure label = "fn4" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=-3*x^2 - 6*x + 3</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+<image>
+<prefigure label = "fn5" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=3*5^(x/2)</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+<image>
+<prefigure label = "fn6" xmlns="https://prefigure.org">
+    <diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=3*5^(-x/2)</definition>
+  <coordinates bbox="(-6,-6,6,6)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f"/>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+</sidebyside>
+                
+</statement>             
+                
+</exercise>
+        </page>
+            
+        <page>
+
+            <exercise xml:id="week1prob3">
+                    <introduction>
+                        <p>
+                            Find a formula for a function <m>f(x)</m> whose graph passes through the points <m>(1,4)</m> and <m>(5,12)</m> under each of the following assumtions:
+                        </p>
+                    </introduction>
+
+                    <task workspace="2in">
+                        <statement>
+                                <p>
+                                    Assume <m>f(x)</m> is a linear function.
+                                </p>
+                        </statement>
+                    </task>
+                    
+                    <task workspace="2in">
+                        <statement>
+                                <p>
+                                    Assume <m>f(x)</m> is an exponential function.
+                                </p>
+                        </statement>
+                    </task>
+            </exercise>
+        </page>
+        <page>
+            <exercise>
+            <introduction>
+                <p>
+                    Find formulas for quadratic functions satisfying each description below.
+                </p>
+            </introduction>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                          The <m>y</m>-intercept is at <m>(0,4)</m> and there are two <m>x</m>-intercepts at <m>(2,0)</m> and <m>(5,0)</m>.
+                        </p>
+                    </statement>
+                </task>
+                <task workspace="3in">
+                    <statement>
+                        <p>
+                          The vertex is at <m>(2,5)</m> and the graph passes through the point <m>(4,4)</m>.
+                        </p>
+                    </statement>
+                </task>
+            </exercise>
+        </page>
+        </worksheet>
+<!--/article>
+</pretext-->

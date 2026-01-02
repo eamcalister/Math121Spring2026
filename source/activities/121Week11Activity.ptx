@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--uncomment <pretext> and <article> tags at the beginning and end for standalone pdf generation-->
+<!--pretext>
+<article-->
+    <worksheet margin="1in" bottom="1.25cm" xml:id="Week11" >
+            <title>Math 121 Week 11 Activity</title>
+<introduction>
+    <p>
+        This activity has the following objectives:
+    </p>
+</introduction>
+        <objectives>
+        <ul>
+	  		<li>
+	  			<p>
+					Look at the relationship between the domain and range of a function and its inverse.
+	  			</p>
+	  		</li>
+            <li>
+                <p>
+                    Find the relationship between the graph of a function and its inverse.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Restrict the domain of a function so that its inverse exists on the given domain. 
+                </p>
+            </li>
+	  	</ul>
+    </objectives>
+            <introduction>
+                <p>
+                    Please note, some of these questions have answers that will require you to write complete sentences in order to help you make better sense of the math you're learning. This may seem difficult at first.
+                </p>
+            </introduction>
+        
+<page>
+
+<exercise>
+<introduction>
+  <p>
+    Consider the functions <m>y = f(x) = e^{x^3} - 4</m> and <m>x = g(y) = \sqrt[3]{\ln(y+4)}</m>.
+  </p> 
+</introduction>
+<task workspace="3in">
+    <statement>
+        <p>
+            By checking that <m>f(g(y))=y</m> and <m>g(f(x)) = x</m>, show that <m>g = f^{-1}</m>.
+        </p>
+    </statement>
+</task>
+<task workspace="2in">
+    <statement>
+        <p>
+            Find the domain and range of both <m>f</m> and <m>g</m>. Write your answers using inequalities with the appropriate variables. What do you notice?
+        </p>
+    </statement>
+</task>
+
+</exercise>
+
+</page>
+<page>
+
+<exercise>
+<statement>
+  <p>
+    Observe that if a function <m>f</m> has an inverse function <m>f^{-1}</m>, then <m>(x,y) = (a,f(a)) = (a,b)</m> is on the graph of <m>f</m> if and only if <m>(y,x) = (b,f^{-1}(b)) = (b,a)</m> is on the graph of <m>f^{-1}</m>. Use this fact to pair each graph with the graph of its inverse function.
+   </p> 
+<sidebyside>
+ <image>
+
+<prefigure label = "invmatch1" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x,y)=x-y^3</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="y" ylabel="x" decorations="no" arrows="2"/>
+    <implicit-curve function="f" k="0" stroke="blue"/>
+    <label anchor="(-3.5,3.5)">
+      A
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>   
+
+ <image>
+<prefigure label = "invmatch2" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x)=1/(x-1)</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="x" ylabel="y" decorations="no" arrows="2"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(-3.5,3.5)">
+      B
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>  
+
+</sidebyside>
+
+<sidebyside>
+ <image>
+<prefigure label = "invmatch3" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x)=1/x+1</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="y" ylabel="x" decorations="no" arrows="2"/>
+    <graph function="f" stroke="blue"/>
+    <label anchor="(-3.5,3.5)">
+      C
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>   
+
+ <image>
+<prefigure label = "invmatch4" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x,y)=y-e^x+2</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="x" ylabel="y" decorations="no" arrows="2"/>
+    <implicit-curve function="f" k="0" stroke="blue" />
+    <label anchor="(-3.5,3.5)">
+      D
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>  
+
+</sidebyside>
+
+<sidebyside>   
+
+ <image>
+<prefigure label = "invmatch6" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x,y)=x-e^y+2</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="y" ylabel="x" decorations="no" arrows="2"/>
+    <implicit-curve function="f" k="0" stroke="blue" />
+    <label anchor="(-3.5,3.5)">
+      E
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image> 
+
+ <image>
+<prefigure label = "invmatch5" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x,y)=y-x^3</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <axes xlabel="x" ylabel="y" decorations="no" arrows="2"/>
+    <implicit-curve function="f" k="0" stroke="blue"/>
+    <label anchor="(-3.5,3.5)">
+      F
+    </label>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+
+</sidebyside>
+
+
+
+</statement>
+
+</exercise>
+
+
+
+</page>
+
+<page>
+  
+<exercise>
+<introduction>
+<p>
+    Consider the function <m>y = f(x)</m> whose <em>entire</em> graph is shown below:
+</p>  
+<image>
+<prefigure label = "not-1-1" xmlns="https://prefigure.org">
+<diagram dimensions="(350,250)" margins="(100,5,100,5)">
+  <definition>f(x)=(x+2)^2-1</definition>
+  <definition>g(x)=0.4*x+3</definition>
+  <coordinates bbox="(-7,-3,7,7)">
+    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
+    <graph at="graph" function="f" domain="[-4,0]"/>
+    <graph at="graph" function="g" domain="[0,5]"/>
+  </coordinates>
+
+</diagram>
+</prefigure>
+</image>
+</introduction>
+<task workspace="1.5in">
+    <statement>
+        <p>
+            Find the largest possible domain on which <m>f</m> is invertible (has an inverse <em>function</em>).            
+        </p>
+    </statement>
+</task>
+<task>
+    <statement>
+        <p>
+            Sketch a graph of <m>f^{-1}(y)</m> in the axes provided, assuming the restricted domain from part (a).      
+        </p>
+<image>
+<prefigure label = "not-1-1-inverse-axes" xmlns="https://prefigure.org">
+<diagram dimensions="(350,250)" margins="(100,5,100,5)">
+
+  <coordinates bbox="(-7,-3,7,7)">
+    <grid-axes xlabel="y" ylabel="x"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
+
+  </coordinates>
+
+</diagram>
+</prefigure>
+</image>
+    </statement>
+</task>
+
+</exercise>
+</page>
+<page>
+<exercise>
+<introduction>
+    <p>
+        A function <m>f(x)</m> is called an <term>involution</term> if <m>f(x) = f^{-1}(x)</m>. Consider the graph of <m>g(x) = \frac{1}{x}</m> shown below.
+    </p>
+<image>
+<prefigure label = "1-over-x" xmlns="https://prefigure.org">
+<diagram dimensions="(300,300)" margins="(100,5,100,5)">
+  <definition>f(x)=1/x</definition>
+  <coordinates bbox="(-7,-7,7,7)">
+    <grid-axes xlabel="x" ylabel="y"  spacings="((-7,1,7),(-7,1,7))" hlabels="(-6,2,6)" vlabels="(-6,2,6)" stroke="black"/>
+    <graph at="graph" function="f" domain="[-8,0]"/>
+    <graph at="graph" function="f" domain="[0,8]"/>
+  </coordinates>
+
+</diagram>
+</prefigure>
+</image>
+
+</introduction>
+<task workspace="2in">
+  <statement>
+      
+<p>
+    Use the graph of <m>g(x) = \frac{1}{x}</m> and your knowledge of the graphs of inverse functions to explain why <m>g(x)</m> is an involution.
+</p>
+<p>
+    <em>You should do this without a formula; reason with the graph.</em>
+</p>
+  </statement>
+</task>
+
+<task workspace="2in">
+  <statement>
+      
+<p>
+    Use the graph of <m>g(x) = \frac{1}{x}</m>, your knowledge of the graphs of inverse functions, and how graphical transformations work to explain why <me>f(x) = g(x-a) + a</me> is an involution for any value of <m>a</m>.
+</p>
+  </statement>
+</task>
+
+</exercise>
+
+</page>
+
+
+
+</worksheet>
+<!--/article>
+</pretext-->

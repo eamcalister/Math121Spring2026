@@ -1,0 +1,299 @@
+
+<section xml:id="schedule">
+    <title>Course Schedule</title>
+<!--Organize your course schedule as you see fit.-->
+<!--A course schedule is a required element per FLC syllabus policy.-->    
+<paragraphs>
+    <title>Week 1</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>Ch 1-5 - Inputs and Outputs of Functions (with algebra)</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>Ch 1-5 - Multiple Representations of Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 1 Activity - Basic Families of Functions</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>6.1 - Reflections and Shifts of Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 2</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>6.2 - Vertical Stretches and Compressions</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>Ch 1-3 - Forms of Linear and Quadratic Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 2 Activity - Point-Slope and Vertex Forms as Transformations</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>6.3 Part I - Horizontal Compressions and Stretches</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 3</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>6.3 Part II - Combining Multiple Transformations</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>Ch 6 (+prior sections) - Exponential Functions with Transformations</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 3 Activity - Exponential Modeling Problems</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>7.1 - Intro to Periodic Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 4</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>7.2 Part I - Intro to the Sine and Cosine Function</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>7.2 Part II - Further Study of the Sine and Cosine</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Exam 1 Review</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell><term>Exam 1</term></cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 5</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>7.3 - Radian Measure of Angles</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>7.4 - Graphs of Sine and Cosine</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 5 Activity - Finding Formulas for Sinusoidal Functions</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>7.5 - Applications of Sinusoidal Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 6</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>7.6 - The Tangent Function</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>7.7 - The Six Trigonometric Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 6 Activity - <em>Inverse</em> Trigonometric <em>Functions</em></cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>7.8 - Using Inverse Trig Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 7</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>8.1 - Right Triangle Trigonometry</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>8.2 Part I - The Law of Cosines</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 7 Activity - Right Triangle Trigonometry Applications</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>8.2 Part II - The Law of Sines</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 8</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>9.1 Part I - Trigonometric Equations</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>9.1 Part II - More Trigonometric Equations</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Exam 2 Review</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell><term>Exam 2</term></cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 9</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>9.2 Part I - Introduction to Trigonometric Identities</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>9.2 Part II - Using Trigonometric Identities</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 9 Activity - Angle Sum Identities</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>Section 9.3, Angle Sum Identities and Sinusoidal Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 10</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>9.4 Part I - Introduction to Polar Coordinates</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>9.4 Part II - Graphs of Some Polar Equations</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 10 Activity - More Polar Graphing</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>10.1 - Compositions of Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 11</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>10.2 - Inverse Functions</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>10.4 - Combinations of Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 11 Activity - More on Inverse Functions</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>11.1 - Power Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 12</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>11.2 - Polynomials</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>11.3 - Zeros of Polynomials</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Exam 3 Review</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell><term>Exam 3</term></cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 13</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>11.4 - Rational Functions</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>11.5 - Local Behavior of Rational Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Week 13 Activity - Introduction to Limits</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>11.6 - Comparing Exponential to Power Functions</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+<paragraphs>
+    <title>Week 14</title>
+    <p>
+    <tabular>
+        <row>
+            <cell>Monday</cell> <cell>11.6 Part II - Comparing Logarithmic Functions to Power Functions</cell>
+        </row>
+        <row>
+            <cell>Wednesday</cell> <cell>11.6 - Using Limits to Compare Functions</cell>
+        </row>
+        <row>
+            <cell>Thursday</cell> <cell>Final Exam Review Part I</cell>
+        </row>
+        <row>
+            <cell>Friday</cell> <cell>Final Exam Review Part II</cell>
+        </row>
+    </tabular>
+    </p>
+</paragraphs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</section>
