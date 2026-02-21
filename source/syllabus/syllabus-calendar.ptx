@@ -117,7 +117,7 @@
             <cell>Thursday</cell> <cell>Week 6 Activity - <em>Inverse</em> Trigonometric <em>Functions</em></cell>
         </row>
         <row>
-            <cell>Friday</cell> <cell>7.7 - The Six Trigonometric Functions</cell>
+            <cell>Friday</cell> <cell><stale>7.7 - The Six Trigonometric Functions</stale> <term>Snow Day</term></cell>
         </row>
     </tabular>
     </p>
@@ -128,16 +128,16 @@
     <p>
     <tabular>
         <row>
-            <cell>Monday</cell> <cell>7.8 - Using Inverse Trig Functions</cell>
+            <cell>Monday</cell> <cell><stale>7.8 - Using Inverse Trig Functions</stale> 7.7 - The Six Trigonometric Functions </cell>
         </row>
         <row>
-            <cell>Wednesday</cell> <cell>8.1 - Right Triangle Trigonometry</cell>
+            <cell>Wednesday</cell> <cell><stale>8.1 - Right Triangle Trigonometry</stale> 7.8 - Using Inverse Trig Functions </cell>
         </row>
         <row>
-            <cell>Thursday</cell> <cell>Week 7 Activity - Right Triangle Trigonometry Applications</cell>
+            <cell>Thursday</cell> <cell><stale>Week 7 Activity - Right Triangle Trigonometry Applications</stale> 8.1 - Right Triangle Trigonometry </cell>
         </row>
         <row>
-            <cell>Friday</cell> <cell>8.2 Part I - The Law of Cosines</cell>
+            <cell>Friday</cell> <cell><stale>8.2 Part I - The Law of Cosines</stale>Week 7 Activity - Right Triangle Trigonometry Applications </cell>
         </row>
     </tabular>
     </p>
@@ -148,7 +148,7 @@
     <p>
     <tabular>
         <row>
-            <cell>Monday</cell> <cell>8.2 Part II - The Law of Sines</cell>
+            <cell>Monday</cell> <cell><stale>8.2 Part II - The Law of Sines</stale> 8.2 Part I - The Law of Cosines </cell>
         </row>
         <row>
             <cell>Wednesday</cell> <cell>9.1 - Trigonometric Equations</cell>
